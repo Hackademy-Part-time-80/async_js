@@ -1,0 +1,26 @@
+.loader {
+  border: 16px solid #dbca34;
+  border-radius: 50%;
+  border-top: 16px solid #1b1b1b;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#btnShow {
+  padding: 5px 10px;
+  background-color: yellow;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: 20px;
+}
